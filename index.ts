@@ -40,4 +40,4 @@ await Promise.all(
   })
 )
 
-writeFile(projectPath, JSON.stringify(project, null, 2), 'utf8')
+await writeFile(projectPath, JSON.stringify(project, null, 2), 'utf8')
